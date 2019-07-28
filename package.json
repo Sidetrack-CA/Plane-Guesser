@@ -1,0 +1,41 @@
+{
+  "name": "Plane-Guesser",
+  "version": "1.0.0",
+  "description": "A Clicky Plane Game",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8",
+    "tachyons": "^4.11.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "prettier": "^1.17.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --config prettier.config.js --write **/*.js(x)",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sidetrack-CA/Plane-Guesser"
+  },
+  "homepage":"https://sidetrack-ca.github.io/Plane-Guesser/",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
