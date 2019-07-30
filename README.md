@@ -2,7 +2,7 @@
 This is a based on the disney characters from the movie planes built in React. 
 
 # URL: 
-[here](https://sidetrack-ca.github.io/plane-guesser/).
+[here](https://sidetrack-ca.github.io/Plane-Guesser/).
 
 # Technologies Used:
 * React
